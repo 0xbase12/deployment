@@ -6,6 +6,23 @@
 
 ## Released
 
+## 3.0.0 (2023-08-23)
+
+
+### Bug Fixes
+
+* fix:  ([97606ae](https://github.com/0xbase12/deployment/commit/97606ae7a1992ce0e360bab74ec2a5627391b432))
+* fix:  ([19a349a](https://github.com/0xbase12/deployment/commit/19a349a9036f34d2da401ff1b10f96b3051a4e6c))
+* fix:  ([6ef094d](https://github.com/0xbase12/deployment/commit/6ef094dd380889742dac4fd1ca9dfb64d4966aed))
+* fix:  ([ce3a005](https://github.com/0xbase12/deployment/commit/ce3a005989b73aadad731e792ee47f153e559165))
+* back to settings in workflow file ([eb04027](https://github.com/0xbase12/deployment/commit/eb04027a9127f3e19282ee3b34fe81bc735ec07e))
+* build for master branch ([549c3b8](https://github.com/0xbase12/deployment/commit/549c3b8ad0f15fead58599e7faa89299e63fc7c2))
+* manifest ([09a9450](https://github.com/0xbase12/deployment/commit/09a945048fc70aa54ef013f30a72f36a377e1d02))
+* put back version and sha ([261e718](https://github.com/0xbase12/deployment/commit/261e7185895d3bca2600747244cdfa64e7687168))
+* use manifest ([61ebb7c](https://github.com/0xbase12/deployment/commit/61ebb7cc38db0511b2196e5b414f7118a4eac442))
+* workflow fix ([7a9bf26](https://github.com/0xbase12/deployment/commit/7a9bf26b96ce4e80029ec6ffabde86c3195e0e89))
+* zip file creation and push ([e0de59e](https://github.com/0xbase12/deployment/commit/e0de59e17c54e6682c265b7eaa24ebdf95bb68f8))
+
 ## [2.3.5] - 2023-08-23
 
 This release update Nuvla components to following versions:
@@ -649,5 +666,3 @@ manage data, and deploy and use NuvlaBox resources at the edge.
 ### Changed
 
 - Initial release to test deployment process.
-
- 

@@ -22,7 +22,7 @@ jobs:
       - name: List
         run: |
           pwd
-          ls -al
+          ls -al ..
           find .
       - name: Zip Folder
         if: ${{ steps.release.outputs.release_created }}

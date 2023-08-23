@@ -6,6 +6,24 @@
 
 ## Released
 
+## 1.0.0 (2023-08-23)
+
+
+### Features
+
+* release please bootstrap ([0a7eb10](https://github.com/0xbase12/deployment/commit/0a7eb10017eea7a2d0057b4db6264609be7c7073))
+
+
+### Bug Fixes
+
+* build for master branch ([549c3b8](https://github.com/0xbase12/deployment/commit/549c3b8ad0f15fead58599e7faa89299e63fc7c2))
+* correct kafka port from control center ([aba44de](https://github.com/0xbase12/deployment/commit/aba44de832560155851bc816ff2ab0ab2f805b11))
+* read machines as a list ([3c365e7](https://github.com/0xbase12/deployment/commit/3c365e77117632124e8d1aa6cee44d92cfa63e7a))
+* remove test streams ([b7fdb42](https://github.com/0xbase12/deployment/commit/b7fdb420b9c9268556bdafa1c01a6f63183dc3de))
+* renamed travis config file ([5d92475](https://github.com/0xbase12/deployment/commit/5d9247531b985795cad8bf290365c06e23f4a8f1))
+* use correct authn endpoint and password ([a9eb7df](https://github.com/0xbase12/deployment/commit/a9eb7df9ffa40d22614e8688d09a5bcbfb8b7164))
+* workflow fix ([7a9bf26](https://github.com/0xbase12/deployment/commit/7a9bf26b96ce4e80029ec6ffabde86c3195e0e89))
+
 ## [2.3.5] - 2023-08-23
 
 This release update Nuvla components to following versions:
@@ -649,5 +667,3 @@ manage data, and deploy and use NuvlaBox resources at the edge.
 ### Changed
 
 - Initial release to test deployment process.
-
- 

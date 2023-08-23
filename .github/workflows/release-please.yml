@@ -20,15 +20,10 @@ jobs:
           release-as: 3.0.0
           bootstrap-sha: 0a7eb10017eea7a2d0057b4db6264609be7c7073
       - uses: actions/checkout@v2
-        # if: ${{ steps.release.outputs.release_created }}
-      - name: List
-        run: |
-          pwd
-          ls -al ..
-          find .
+        if: ${{ steps.release.outputs.release_created }}
       - name: Zip Folder
         if: ${{ steps.release.outputs.release_created }}
-        run: zip -r ${{ github.event.repository.name }}.zip ./prod -x "target" "secrets" "*.iml"  "*.log*" 
+        run: zip -r ${{ github.event.repository.name }}.zip prod -x "target" "secrets" "*.iml"  "*.log*" 
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:

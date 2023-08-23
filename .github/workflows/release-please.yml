@@ -21,9 +21,9 @@ jobs:
           bootstrap-sha: 0a7eb10017eea7a2d0057b4db6264609be7c7073
       - name: List
         run: |
-        pwd
-        ls -al
-        find .
+          pwd
+          ls -al
+          find .
       - name: Zip Folder
         if: ${{ steps.release.outputs.release_created }}
         run: zip -r ${{ github.event.repository.name }}.zip ./prod -x "target" "secrets" "*.iml"  "*.log*" 

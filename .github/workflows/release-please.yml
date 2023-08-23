@@ -17,8 +17,10 @@ jobs:
         id: release
         with:
           release-type: simple
+          release-as: 3.0.0
+          bootstrap-sha: 0a7eb10017eea7a2d0057b4db6264609be7c7073
       - name: Zip Folder
-        run: zip -r ${{ github.event.repository.name }}.zip prod -x "target" "secrets" "*.iml"  "*.log*" 
+        run: zip -r ${{ github.event.repository.name }}.zip ./prod -x "target" "secrets" "*.iml"  "*.log*" 
       - name: Upload Release Artifact
         if: ${{ steps.release.outputs.release_created }}
         env:

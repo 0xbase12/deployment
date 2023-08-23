@@ -17,7 +17,7 @@ jobs:
         id: release
         with:
           release-type: simple
-          changelog-types: '[{"type":"deps","section":"Dependencies","hidden":false}]
+          changelog-types: '[{"type":"deps","section":"Dependencies","hidden":false}]'
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.release_created }}
       - name: Zip Folder

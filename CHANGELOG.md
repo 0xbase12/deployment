@@ -22,7 +22,7 @@
 * use manifest ([61ebb7c](https://github.com/0xbase12/deployment/commit/61ebb7cc38db0511b2196e5b414f7118a4eac442))
 * workflow fix ([7a9bf26](https://github.com/0xbase12/deployment/commit/7a9bf26b96ce4e80029ec6ffabde86c3195e0e89))
 * zip file creation and push ([e0de59e](https://github.com/0xbase12/deployment/commit/e0de59e17c54e6682c265b7eaa24ebdf95bb68f8))
-* changed
+* changed2
 
 ## [2.3.5] - 2023-08-23
 

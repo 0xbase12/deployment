@@ -14,8 +14,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
+        id: release
         with:
           release-type: simple
-          bootstrap-sha: 0a7eb10017eea7a2d0057b4db6264609be7c7073
-          release-as: 3.0.0
+      - name: Zip Folder
+        run: zip -r ${{ github.event.repository.name }}.zip prod -x "target" "secrets" "*.iml"  "*.log*" 
+      - name: Upload Release Artifact
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run:
+          gh release upload ${{ steps.release.outputs.tag_name }} ./${{ github.event.repository.name }}.zip
           

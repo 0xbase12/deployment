@@ -6,6 +6,28 @@
 
 ## Released
 
+## [3.1.0](https://github.com/0xbase12/deployment/compare/v3.0.0...v3.1.0) (2023-08-24)
+
+
+### Dependencies
+
+* release please helper remove ([8580582](https://github.com/0xbase12/deployment/commit/8580582c4f82e1d32c226fa40181b86b5853af63))
+* should be in changelog ([774c406](https://github.com/0xbase12/deployment/commit/774c4069d2130836cd14d0ec5d3670646a1e25e3))
+* test deps ([4d9a314](https://github.com/0xbase12/deployment/commit/4d9a314c230e4f3cb89ece92b9bfa1d68a084318))
+
+
+### Features
+
+* hello ([f4b2b3e](https://github.com/0xbase12/deployment/commit/f4b2b3e3c89f62b7242474a76486bce1f96b3308))
+
+
+### Bug Fixes
+
+* changelog ([ecfeeed](https://github.com/0xbase12/deployment/commit/ecfeeed94aace7c0be45217f0794cedd67854859))
+* put back sections ([df79079](https://github.com/0xbase12/deployment/commit/df790799530c154e4634210d5623dfeec5f8e49e))
+* try print output ([7b4d140](https://github.com/0xbase12/deployment/commit/7b4d140b7c389521beb8f5ca2c81422ae8bf853b))
+* workflow fix ([e1de614](https://github.com/0xbase12/deployment/commit/e1de61492d7d1e8acabac3bdd47c379f95300b80))
+
 ## 3.0.0 (2023-08-23)
 
 

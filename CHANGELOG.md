@@ -1,9 +1,5 @@
 # Changelog
 
-## Unreleased
-
-### Changed
-
 ## Released
 
 ## [3.1.4](https://github.com/0xbase12/deployment/compare/v3.1.3...v3.1.4) (2023-08-24)

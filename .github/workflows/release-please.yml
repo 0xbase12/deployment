@@ -44,4 +44,12 @@ jobs:
       - run: |
           echo "${{ needs.release.outputs.releases_created }}"
           echo "${{join(needs.release.outputs.*, '\n')}}"
+  notify2:
+    needs: release
+    if: needs.release.outputs.releases_created
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "${{ needs.release.outputs.releases_created }}"
+          echo "${{join(needs.release.outputs.*, '\n')}}"
       

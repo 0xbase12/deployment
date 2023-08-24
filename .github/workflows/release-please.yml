@@ -3,7 +3,7 @@ name: release-please
 on:
   push:
     branches:
-      - master
+      - main
 
 
 permissions:
@@ -23,8 +23,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
-          release-type: simple
-          changelog-types: '[{"type":"deps","section":"Dependencies","hidden":false},{"type":"feat","section":"Features","hidden":false},{"type":"fix","section":"Bug Fixes","hidden":false},{"type":"chore","section":"Miscellaneous","hidden":false}]'
+          command: manifest
       - uses: actions/checkout@v2
         if: ${{ steps.release.outputs.release_created }}
       - name: Zip Folder

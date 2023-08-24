@@ -2,6 +2,42 @@
 
 ## Released
 
+## 1.0.0 (2023-08-24)
+
+
+### Features
+
+* hello ([f4b2b3e](https://github.com/0xbase12/deployment/commit/f4b2b3e3c89f62b7242474a76486bce1f96b3308))
+* release please bootstrap ([0a7eb10](https://github.com/0xbase12/deployment/commit/0a7eb10017eea7a2d0057b4db6264609be7c7073))
+
+
+### Bug Fixes
+
+* fix:  ([97606ae](https://github.com/0xbase12/deployment/commit/97606ae7a1992ce0e360bab74ec2a5627391b432))
+* fix:  ([19a349a](https://github.com/0xbase12/deployment/commit/19a349a9036f34d2da401ff1b10f96b3051a4e6c))
+* fix:  ([6ef094d](https://github.com/0xbase12/deployment/commit/6ef094dd380889742dac4fd1ca9dfb64d4966aed))
+* fix:  ([ce3a005](https://github.com/0xbase12/deployment/commit/ce3a005989b73aadad731e792ee47f153e559165))
+* back to settings in workflow file ([eb04027](https://github.com/0xbase12/deployment/commit/eb04027a9127f3e19282ee3b34fe81bc735ec07e))
+* build for master branch ([549c3b8](https://github.com/0xbase12/deployment/commit/549c3b8ad0f15fead58599e7faa89299e63fc7c2))
+* changelog ([28c7287](https://github.com/0xbase12/deployment/commit/28c72878d23a7789a5f1fd9e4a9d134e0d6b7830))
+* changelog ([ecfeeed](https://github.com/0xbase12/deployment/commit/ecfeeed94aace7c0be45217f0794cedd67854859))
+* correct kafka port from control center ([aba44de](https://github.com/0xbase12/deployment/commit/aba44de832560155851bc816ff2ab0ab2f805b11))
+* debug if ([4db5fe7](https://github.com/0xbase12/deployment/commit/4db5fe7fad43a12b3d0bde91981b9fc779c38b97))
+* manifest ([09a9450](https://github.com/0xbase12/deployment/commit/09a945048fc70aa54ef013f30a72f36a377e1d02))
+* minor ([0865c69](https://github.com/0xbase12/deployment/commit/0865c69f08c9988a890a3bd0f61c985d8769f185))
+* minor ([eeda594](https://github.com/0xbase12/deployment/commit/eeda5948d1aba0c17b04ec0d4b5b25b0901a8294))
+* outputs ([7aa5239](https://github.com/0xbase12/deployment/commit/7aa5239fc6798896fe08c033b6eefc7a0c0d7d69))
+* put back sections ([df79079](https://github.com/0xbase12/deployment/commit/df790799530c154e4634210d5623dfeec5f8e49e))
+* put back version and sha ([261e718](https://github.com/0xbase12/deployment/commit/261e7185895d3bca2600747244cdfa64e7687168))
+* read machines as a list ([3c365e7](https://github.com/0xbase12/deployment/commit/3c365e77117632124e8d1aa6cee44d92cfa63e7a))
+* remove test streams ([b7fdb42](https://github.com/0xbase12/deployment/commit/b7fdb420b9c9268556bdafa1c01a6f63183dc3de))
+* try print output ([7b4d140](https://github.com/0xbase12/deployment/commit/7b4d140b7c389521beb8f5ca2c81422ae8bf853b))
+* use correct authn endpoint and password ([a9eb7df](https://github.com/0xbase12/deployment/commit/a9eb7df9ffa40d22614e8688d09a5bcbfb8b7164))
+* use manifest ([61ebb7c](https://github.com/0xbase12/deployment/commit/61ebb7cc38db0511b2196e5b414f7118a4eac442))
+* workflow fix ([e1de614](https://github.com/0xbase12/deployment/commit/e1de61492d7d1e8acabac3bdd47c379f95300b80))
+* workflow fix ([7a9bf26](https://github.com/0xbase12/deployment/commit/7a9bf26b96ce4e80029ec6ffabde86c3195e0e89))
+* zip file creation and push ([e0de59e](https://github.com/0xbase12/deployment/commit/e0de59e17c54e6682c265b7eaa24ebdf95bb68f8))
+
 ## [3.1.4](https://github.com/0xbase12/deployment/compare/v3.1.3...v3.1.4) (2023-08-24)
 
 

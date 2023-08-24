@@ -29,4 +29,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run:
           gh release upload ${{ steps.release.outputs.tag_name }} ./${{ github.event.repository.name }}.zip
-          
+  notify:
+    name: Post Workflow Status To Slack
+    needs:
+      - release
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+        echo "${{needs.release.outputs.release_created}}"
+        echo "${{needs.release.outputs.*}}"
+      

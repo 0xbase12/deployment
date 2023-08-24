@@ -13,6 +13,12 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    outputs:
+      releases_created: ${{ steps.release.outputs.releases_created }}
+      major: ${{ steps.release.outputs.major }}
+      minor: ${{ steps.release.outputs.minor }}
+      patch: ${{ steps.release.outputs.minor }}
+      tag_name: ${{ steps.release.outputs.tag_name }}
     steps:
       - uses: google-github-actions/release-please-action@v3
         id: release
@@ -32,8 +38,7 @@ jobs:
           gh release upload ${{ steps.release.outputs.tag_name }} ./${{ github.event.repository.name }}.zip
   notify:
     name: Post Workflow Status To Slack
-    needs:
-      - release
+    needs: release
     runs-on: ubuntu-latest
     steps:
       - run: |

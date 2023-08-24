@@ -6,6 +6,13 @@
 
 ## Released
 
+## [3.1.1](https://github.com/0xbase12/deployment/compare/v3.1.0...v3.1.1) (2023-08-24)
+
+
+### Bug Fixes
+
+* minor ([eeda594](https://github.com/0xbase12/deployment/commit/eeda5948d1aba0c17b04ec0d4b5b25b0901a8294))
+
 ## [3.1.0](https://github.com/0xbase12/deployment/compare/v3.0.0...v3.1.0) (2023-08-24)
 
 

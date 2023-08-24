@@ -2,6 +2,13 @@
 
 ## Released
 
+## [1.0.1](https://github.com/0xbase12/deployment/compare/v1.0.0...v1.0.1) (2023-08-24)
+
+
+### Bug Fixes
+
+* hello ([67320a3](https://github.com/0xbase12/deployment/commit/67320a3e76c7d2764049e3c2dd2f9489b989cd60))
+
 ## 1.0.0 (2023-08-24)
 
 

@@ -36,6 +36,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: |
-        echo "${{needs.release.outputs.release_created}}"
-        echo "${{needs.release.outputs.*}}"
+          echo "${{needs.release.outputs.release_created}}"
+          echo "${{needs.release.outputs.*}}"
       
